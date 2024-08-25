@@ -1,14 +1,14 @@
 # Reactfolio V1.2 👩🏽‍🚀
 
-Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professional and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
+Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements professionally and visually. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
 
 <center>
 <img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" />
 </center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.savanjsaji.dev</a>
+Live demo here: <a href="https://reactfolio.savanjsaji.dev/" target="_blank">reactfolio.savanjsaji.dev</a>
 <br/>
-Readme here: <a href="https://savanjsaji.dev/portfolio/reactfolio/" target="_blank">tharindu.dev/portfolio/reactfolio/</a>
+Readme here: <a href="https://savanjsaji.dev/portfolio/reactfolio/" target="_blank">savanjsaji.dev/portfolio/reactfolio/</a>
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
@@ -47,36 +47,36 @@ The page will reload if you make edits.
 
 ## 📁 Folder structure
 
--   `/public`: publicly accessible contents (ex: images, media).
+-   `/public`: publicly accessible content (ex: images, media).
 -   `/src`: all the components used in this project.
-    -   `/src/components/`: each reusable components of each pages.
+    -   `/src/components/`: each reusable component of each page.
     -   `/src/data`: configurations of the web app.
-    -   `/src/pages`: pages that include in the web app.
+    -   `/src/pages`: pages that are included in the web app.
 
 ## ⚙️ Configurations
 
-Since this is a public and open source project, you can make any changes to it. If you are a ReactJS developer you can do it easily. But if you are a beginner, I have extracted the configurable data into a single directory, so you can edit the files in that directory to configure the entire web application.
+Since this is a public and open-source project, you can make any changes. If you are a ReactJS developer you can do it easily. But if you are a beginner, I have extracted the configurable data into a single directory, so you can edit the files in that directory to configure the entire web application.
 
 Directory: `/src/data/`
 
 -   `user.js`
 
-    From this you can change the content of each page of the web application.
+    From this, you can change the content of each web application page.
 
 -   `articles.js`
 
-    From this you can add your articles to the web application.
+    From this, you can add your articles to the web application.
 
     Instructions:
 
     -   Add new article
 
-        1. Create a new function starts with `article_`. For example you can add new function named `article_3`.
+        1. Create a new function starting with `article_`. For example, you can add a new function named `article_3`.
 
         2. Then add the data accordingly.
 
-            - Add `<React.Fragment>` tag and it's closing tags in body.
-            - In React there has no keyword `class`, so you should use `className` to define html classes.
+            - Add the `<React.Fragment>` tag and its closing tags in the body.
+            - In React there is no keyword `class`, so you should use `className` to define html classes.
 
             ```js
             function article_3() {
